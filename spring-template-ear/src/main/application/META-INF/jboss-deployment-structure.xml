@@ -1,0 +1,39 @@
+<jboss-deployment-structure>
+	<deployment>
+		<exclusions>
+            <module name="org.slf4j" />
+            <module name="org.slf4j.impl" />
+            <module name="org.apache.log4j" />
+            <module name="org.apache.commons.logging"/>
+            <module name="org.jboss.resteasy.resteasy-jackson-provider" />
+            <module name="org.codehaus.jackson.jackson-jaxrs" />
+            <module name="org.codehaus.jackson.jackson-mapper-asl" />
+            <module name="org.codehaus.jackson.jackson-core-asl" />
+		</exclusions>
+	</deployment>
+    <!-- 
+	<sub-deployment name="used-car-scheme-service-ejb.jar">
+		<exclusions>
+            <module name="org.slf4j" />
+            <module name="org.slf4j.impl" />
+            <module name="org.jboss.logging" />
+            <module name="org.apache.log4j" />
+            <module name="org.apache.commons.logging" />
+            <module name="org.log4j" />
+            <module name="org.log4j.impl" />
+		</exclusions>
+	</sub-deployment>
+     -->
+	<sub-deployment name="rules-service-war.war">
+		<exclusions>
+            <module name="org.slf4j" />
+            <module name="org.slf4j.impl" />
+            <module name="org.apache.log4j" />
+            <module name="org.apache.commons.logging"/>
+            <module name="org.jboss.resteasy.resteasy-jackson-provider" />
+            <module name="org.codehaus.jackson.jackson-jaxrs" />
+            <module name="org.codehaus.jackson.jackson-mapper-asl" />
+            <module name="org.codehaus.jackson.jackson-core-asl" />
+		</exclusions>
+	</sub-deployment>
+</jboss-deployment-structure>

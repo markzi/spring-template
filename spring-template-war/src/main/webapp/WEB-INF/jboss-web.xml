@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+<!-- 
+    <resource-ref>
+        <res-ref-name>jdbc/</res-ref-name>
+        <jndi-name>java:/jdbc/</jndi-name>
+    </resource-ref>
+-->
+    <!-- Resource references -->
+    <!-- For additional resouce-ref tags add a merge file called jbossweb-resource-ref.xml -->
+
+    <!-- EJB References -->
+    <!-- For additional ejb-ref tags add a merge file called jbossweb-ejb-ref.xml -->
+
+    <!-- EJB Local References -->
+
+    <!-- For additional ejb-local-ref tags add a merge file called jbossweb-ejb-local-ref.xml -->
+<!--     <resource-ref> -->
+<!--         <res-ref-name>jdbc/</res-ref-name> -->
+<!--         <jndi-name>java:/jdbc/</jndi-name> -->
+<!--     </resource-ref> -->
+</jboss-web>
